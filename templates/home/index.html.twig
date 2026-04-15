@@ -1,0 +1,37 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Camping Web App{% endblock %}
+
+{% block body %}
+<div style="min-height: 100vh; display: flex; align-items: center; justify-content: center; font-family: 'Segoe UI', sans-serif; background: linear-gradient(135deg, #1a472a 0%, #2d5a3f 50%, #1a472a 100%); color: white; text-align: center;">
+    <div style="max-width: 800px; padding: 2rem;">
+        <div style="font-size: 4rem; margin-bottom: 1rem;">🏕️</div>
+        <h1 style="font-size: 3rem; margin-bottom: 0.5rem; font-weight: 700;">Camping Web App</h1>
+        <p style="font-size: 1.3rem; opacity: 0.9; margin-bottom: 2rem;">Rent camping gear, discover suggested materials, and organize outdoor events.</p>
+        <div style="display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap; margin-bottom: 2rem;">
+            <div style="background: rgba(255,255,255,0.1); padding: 1.5rem; border-radius: 12px; min-width: 180px;">
+                <div style="font-size: 2rem;">🎪</div>
+                <h3 style="margin: 0.5rem 0 0.3rem;">Gear Rental</h3>
+                <p style="font-size: 0.9rem; opacity: 0.8; margin: 0;">Browse and rent camping equipment</p>
+            </div>
+            <div style="background: rgba(255,255,255,0.1); padding: 1.5rem; border-radius: 12px; min-width: 180px;">
+                <div style="font-size: 2rem;">🧭</div>
+                <h3 style="margin: 0.5rem 0 0.3rem;">Material Suggestions</h3>
+                <p style="font-size: 0.9rem; opacity: 0.8; margin: 0;">Get personalized gear recommendations</p>
+            </div>
+            <div style="background: rgba(255,255,255,0.1); padding: 1.5rem; border-radius: 12px; min-width: 180px;">
+                <div style="font-size: 2rem;">📅</div>
+                <h3 style="margin: 0.5rem 0 0.3rem;">Event Planning</h3>
+                <p style="font-size: 0.9rem; opacity: 0.8; margin: 0;">Organize and join camping events</p>
+            </div>
+        </div>
+        <div style="display: flex; gap: 0.8rem; justify-content: center; flex-wrap: wrap;">
+            <span style="background: rgba(255,255,255,0.15); padding: 0.4rem 1rem; border-radius: 20px; font-size: 0.85rem;">Symfony 7.2</span>
+            <span style="background: rgba(255,255,255,0.15); padding: 0.4rem 1rem; border-radius: 20px; font-size: 0.85rem;">PHP 8.2</span>
+            <span style="background: rgba(255,255,255,0.15); padding: 0.4rem 1rem; border-radius: 20px; font-size: 0.85rem;">MySQL</span>
+            <span style="background: rgba(255,255,255,0.15); padding: 0.4rem 1rem; border-radius: 20px; font-size: 0.85rem;">Doctrine ORM</span>
+            <span style="background: rgba(255,255,255,0.15); padding: 0.4rem 1rem; border-radius: 20px; font-size: 0.85rem;">Twig</span>
+        </div>
+    </div>
+</div>
+{% endblock %}
