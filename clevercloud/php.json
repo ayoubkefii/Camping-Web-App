@@ -1,0 +1,7 @@
+{
+    "deploy": {
+        "phpVersion": "8.2",
+        "composerInstallFlags": ["--no-dev", "--optimize-autoloader", "--no-interaction"],
+        "runTests": false
+    }
+}
